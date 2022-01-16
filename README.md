@@ -4,7 +4,7 @@
 
 📚 I am currently a third-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
 
-🌱 I am currently learning Javascript and algorithms and data structures on a learning platform called freecodecamp.
+🌱 I am currently learning JavaScript and Algorithms and Data Structures on a learning platform called freecodecamp.
 
 #### Languages I am proficient in:
  - Java
