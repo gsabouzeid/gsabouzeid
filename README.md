@@ -1,22 +1,22 @@
-### Updated as of 1/15/2021
+### Updated as of 2/5/2021
 
 👋 Hi, I’m @gsabouzeid
 
 📚 I am currently a third-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
 
-🌱 I am currently learning JavaScript and Algorithms and Data Structures on a learning platform called freecodecamp.
+🌱 I am currently learning Bootstrap, jQuery, React, and Redux on a learning platform called freecodecamp. Specifically learning from the Front End Development Libraries curriculum.
 
 #### Languages I am proficient in:
  - Java
  - Python
  - C/C++
  - HTML/CSS
+ - JavsScript
 
 #### What I am planning on learning next:
-  - Bootstrap
-  - jQuery
-  - React
-  - Redux
+ - D3
+ - JSON
+ - AJAX
 
 #### Some of my hobbies:
   🏀 Basketball
