@@ -4,19 +4,19 @@
 
 📚 I am currently a third-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
 
-🌱 I am currently learning Bootstrap, jQuery, React, and Redux on a learning platform called freecodecamp. Specifically learning from the Front End Development Libraries curriculum.
+🌱 I am currently learning Kivy, a Python UI library.
 
 #### Languages I am proficient in:
  - Java
  - Python
  - C/C++
  - HTML/CSS
- - JavsScript
+ - JavaScript
 
-#### What I am planning on learning next:
+<!-- #### What I am planning on learning next:
  - D3
  - JSON
- - AJAX
+ - AJAX -->
 
 #### Some of my hobbies:
   🏀 Basketball
