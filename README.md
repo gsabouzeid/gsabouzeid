@@ -1,10 +1,10 @@
-### Updated as of 5/8/2022
+### Updated as of 6/26/2022
 
 👋 Hi, I’m @gsabouzeid
 
 📚 I am currently a third-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
 
-🌱 I am currently learning Kivy, a Python UI library.
+<!-- 🌱 I am currently learning Kivy, a Python UI library. -->
 
 #### Languages I am proficient in:
  - Java
