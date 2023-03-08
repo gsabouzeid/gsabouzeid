@@ -2,7 +2,7 @@
 
 👋 Hi, I’m @gsabouzeid
 
-📚 I am currently a third-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
+📚 I am currently a fourth-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
 
 <!-- 🌱 I am currently learning Kivy, a Python UI library. -->
 
