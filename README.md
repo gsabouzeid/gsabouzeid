@@ -1,4 +1,4 @@
-### Updated as of 3/07/2023
+### Updated as of 03/07/2023
 
 👋 Hi, I’m @gsabouzeid
 
