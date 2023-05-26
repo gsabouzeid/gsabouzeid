@@ -2,9 +2,7 @@
 
 👋 Hi, I’m @gsabouzeid
 
-📚 I am currently a fourth-year student at the University of Minnesota Twin-Cities pursuing a bachelor's degree in Computer Science.
-
-<!-- 🌱 I am currently learning Kivy, a Python UI library. -->
+📚 I am a graduate (2023) from the University of Minnesota Twin-Cities with a Bachelor's of Science degree in Computer Science.
 
 #### Languages I am proficient in:
  - Java
