@@ -17,6 +17,10 @@
  - AJAX -->
 
 #### Some of my hobbies:
+  🧗 Climbing
+
+  🏃 Running
+
   🏀 Basketball
   
   🎮 Video Games
@@ -28,7 +32,7 @@
   💻 Programming
   
 
-  ### 📫 You can contact me through my email abouz009@umn.edu or DM me on [LinkedIn](https://www.linkedin.com/in/garrett-abou-zeid-2040a9191/)
+  ### 📫 You can DM me on [LinkedIn](https://www.linkedin.com/in/garrett-a-2040a9191/)
 
 <!---
 gsabouzeid/gsabouzeid is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
