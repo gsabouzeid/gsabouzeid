@@ -1,0 +1,18 @@
+.navClass {
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navTitleClass {
+  flex-grow: 1;
+}
+
+.navItemsClass {
+  display: flex;
+  gap: 20px;
+}
