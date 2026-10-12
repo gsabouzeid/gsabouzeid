@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import BackgroundParticles from "./Components/BackgroundParticles";
 
 const REPO_NAME = "gsabouzeid";
 const HOME_ROUTE = `/${REPO_NAME}`;
@@ -14,6 +15,7 @@ const SKILLS_ROUTE = `/${REPO_NAME}/skills`;
 function App() {
   return (
     <BrowserRouter>
+      <BackgroundParticles />
       <nav className="navClass">
         <p className="navTitleClass">Garrett Abou-Zeid</p>
         <div className="navItemsClass">
