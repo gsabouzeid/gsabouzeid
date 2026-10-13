@@ -81,9 +81,11 @@ const BackgroundParticles = () => {
   };
 
   return (
-    <ParticlesProvider init={particlesInit}>
-      <Particles options={options} />
-    </ParticlesProvider>
+    <div style={{ zIndex: -1, position: "absolute" }}>
+      <ParticlesProvider init={particlesInit}>
+        <Particles options={options} />
+      </ParticlesProvider>
+    </div>
   );
 };
 
