@@ -31,7 +31,7 @@ function App() {
       <BackgroundParticles />
       <div className="appContainer">
         <nav className="navClass">
-          <p className="navTitleClass">GSA</p>
+          <p className="navTitleClass">GSA (website in progress)</p>
           <div className="navItemsClass">
             <Link to={HOME_ROUTE}>
               <div className="navItemClass">
