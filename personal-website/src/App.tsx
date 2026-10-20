@@ -1,4 +1,11 @@
-import { Github, Linkedin } from "react-bootstrap-icons";
+import {
+  CardList,
+  Github,
+  HouseDoor,
+  Lightbulb,
+  Linkedin,
+  Person,
+} from "react-bootstrap-icons";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Components/about/About";
@@ -24,10 +31,30 @@ function App() {
         <nav className="navClass">
           <p className="navTitleClass">GSA</p>
           <div className="navItemsClass">
-            <Link to={HOME_ROUTE}>Home</Link>
-            <Link to={ABOUT_ROUTE}>About</Link>
-            <Link to={PROJECTS_ROUTE}>Projects</Link>
-            <Link to={SKILLS_ROUTE}>Skills</Link>
+            <Link to={HOME_ROUTE}>
+              <div className="navItemClass">
+                <HouseDoor />
+                Home
+              </div>
+            </Link>
+            <Link to={ABOUT_ROUTE}>
+              <div className="navItemClass">
+                <Person />
+                About
+              </div>
+            </Link>
+            <Link to={PROJECTS_ROUTE}>
+              <div className="navItemClass">
+                <CardList />
+                Projects
+              </div>
+            </Link>
+            <Link to={SKILLS_ROUTE}>
+              <div className="navItemClass">
+                <Lightbulb />
+                Skills
+              </div>
+            </Link>
           </div>
         </nav>
         <section>

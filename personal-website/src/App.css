@@ -25,6 +25,12 @@
   gap: 50px;
 }
 
+.navItemClass {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
 .navItemsClass a {
   text-decoration: none;
   color: white;
