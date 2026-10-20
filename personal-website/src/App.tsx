@@ -7,7 +7,7 @@ import {
   Linkedin,
   Person,
 } from "react-bootstrap-icons";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { HashRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Components/about/About";
 import BackgroundParticles from "./Components/BackgroundParticles";
@@ -15,11 +15,10 @@ import Home from "./Components/home/Home";
 import Projects from "./Components/projects/Projects";
 import Skills from "./Components/skills/Skills";
 
-const REPO_NAME = "gsabouzeid";
-const HOME_ROUTE = `/${REPO_NAME}`;
-const ABOUT_ROUTE = `/${REPO_NAME}/about`;
-const PROJECTS_ROUTE = `/${REPO_NAME}/projects`;
-const SKILLS_ROUTE = `/${REPO_NAME}/skills`;
+const HOME_ROUTE = `/`;
+const ABOUT_ROUTE = `/about`;
+const PROJECTS_ROUTE = `/projects`;
+const SKILLS_ROUTE = `/skills`;
 
 const LINKEDIN_LINK = "https://linkedin.com/in/garrett-a-2040a9191";
 const GITHUB_LINK = "https://github.com/gsabouzeid";
@@ -27,7 +26,7 @@ const EMAIL = "gsabouzeid@gmail.com";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <BackgroundParticles />
       <div className="appContainer">
         <nav className="navClass">
@@ -95,7 +94,7 @@ function App() {
           </div>
         </footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
