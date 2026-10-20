@@ -1,16 +1,20 @@
+import { Github, Linkedin } from "react-bootstrap-icons";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import About from "./Components/about/About";
 import "./App.css";
+import About from "./Components/about/About";
+import BackgroundParticles from "./Components/BackgroundParticles";
 import Home from "./Components/home/Home";
 import Projects from "./Components/projects/Projects";
 import Skills from "./Components/skills/Skills";
-import BackgroundParticles from "./Components/BackgroundParticles";
 
 const REPO_NAME = "gsabouzeid";
 const HOME_ROUTE = `/${REPO_NAME}`;
 const ABOUT_ROUTE = `/${REPO_NAME}/about`;
 const PROJECTS_ROUTE = `/${REPO_NAME}/projects`;
 const SKILLS_ROUTE = `/${REPO_NAME}/skills`;
+
+const LINKEDIN_LINK = "https://linkedin.com/in/garrett-a-2040a9191";
+const GITHUB_LINK = "https://github.com/gsabouzeid";
 
 function App() {
   return (
@@ -34,7 +38,30 @@ function App() {
             <Route path={SKILLS_ROUTE} element={<Skills />} />
           </Routes>
         </section>
-        <footer>Created and Maintained by Garrett Abou-Zeid</footer>
+        <footer>
+          <p>Created and Maintained by Garrett Abou-Zeid</p>
+          <p>&copy; 2026 Garrett Abou-Zeid. All rights reserved.</p>
+          <div className="footerIcons">
+            <a
+              className="footerLinkIcon"
+              href={GITHUB_LINK}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+              <Github />
+            </a>
+            <a
+              className="footerLinkIcon"
+              href={LINKEDIN_LINK}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+            >
+              <Linkedin />
+            </a>
+          </div>
+        </footer>
       </div>
     </BrowserRouter>
   );
