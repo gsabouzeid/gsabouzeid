@@ -8,6 +8,10 @@ body,
   height: 100%;
 }
 
+body {
+  background-color: #07232e;
+}
+
 section {
   display: flex;
   flex-direction: column;

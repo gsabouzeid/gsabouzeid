@@ -75,9 +75,6 @@ const BackgroundParticles = () => {
         y: 50,
       },
     },
-    background: {
-      color: "#07232e",
-    },
   };
 
   return (
