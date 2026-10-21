@@ -35,3 +35,14 @@ footer {
 .footerLinkIcon {
   color: white;
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+  .footerIcons {
+    margin: 16px 0;
+  }
+}

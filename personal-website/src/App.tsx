@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
   CardList,
   EnvelopeFill,
@@ -5,6 +6,7 @@ import {
   HouseDoor,
   Lightbulb,
   Linkedin,
+  List,
   Person,
 } from "react-bootstrap-icons";
 import { HashRouter, Link, Route, Routes } from "react-router-dom";
@@ -25,33 +27,88 @@ const GITHUB_LINK = "https://github.com/gsabouzeid";
 const EMAIL = "gsabouzeid@gmail.com";
 
 function App() {
+  const [toggleNav, setToggleNav] = useState(false);
+
+  // Close mobile nav if screen size expands
+  useEffect(() => {
+    const handleResize = () => {
+      const shouldBeDesktop = window.innerWidth > 768;
+
+      if (shouldBeDesktop) {
+        setToggleNav(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  function handleToggleNavigation() {
+    setToggleNav((prevToggleNav) => !prevToggleNav);
+  }
+
   return (
     <HashRouter>
       <BackgroundParticles />
       <div className="appContainer">
-        <nav className="navClass">
-          <p className="navTitleClass">GSA (website in progress)</p>
-          <div className="navItemsClass">
+        <nav className="nav">
+          <p className="navTitle">GSA (website in progress)</p>
+          <div className="navItems">
             <Link to={HOME_ROUTE}>
-              <div className="navItemClass">
+              <div className="navItem">
                 <HouseDoor />
                 Home
               </div>
             </Link>
             <Link to={ABOUT_ROUTE}>
-              <div className="navItemClass">
+              <div className="navItem">
                 <Person />
                 About
               </div>
             </Link>
             <Link to={PROJECTS_ROUTE}>
-              <div className="navItemClass">
+              <div className="navItem">
                 <CardList />
                 Projects
               </div>
             </Link>
             <Link to={SKILLS_ROUTE}>
-              <div className="navItemClass">
+              <div className="navItem">
+                <Lightbulb />
+                Skills
+              </div>
+            </Link>
+          </div>
+          <button
+            className="navItemsButton"
+            aria-label="Toggle Navigation"
+            onClick={handleToggleNavigation}
+          >
+            <List />
+          </button>
+        </nav>
+        <nav className={`popoverNav ${!toggleNav ? "is-hidden" : ""}`}>
+          <div className="popoverNavItems">
+            <Link to={HOME_ROUTE} onClick={() => setToggleNav(false)}>
+              <div className="popoverNavItem">
+                <HouseDoor />
+                Home
+              </div>
+            </Link>
+            <Link to={ABOUT_ROUTE} onClick={() => setToggleNav(false)}>
+              <div className="popoverNavItem">
+                <Person />
+                About
+              </div>
+            </Link>
+            <Link to={PROJECTS_ROUTE} onClick={() => setToggleNav(false)}>
+              <div className="popoverNavItem">
+                <CardList />
+                Projects
+              </div>
+            </Link>
+            <Link to={SKILLS_ROUTE} onClick={() => setToggleNav(false)}>
+              <div className="popoverNavItem">
                 <Lightbulb />
                 Skills
               </div>

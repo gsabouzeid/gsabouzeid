@@ -1,6 +1,7 @@
 import { type Engine, type ISourceOptions } from "@tsparticles/engine";
 import Particles, { ParticlesProvider } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import { memo } from "react";
 
 const particlesInit = async (engine: Engine): Promise<void> => {
   await loadSlim(engine);
@@ -86,4 +87,4 @@ const BackgroundParticles = () => {
   );
 };
 
-export default BackgroundParticles;
+export default memo(BackgroundParticles);
