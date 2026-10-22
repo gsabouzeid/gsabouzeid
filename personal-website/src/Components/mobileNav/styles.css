@@ -1,0 +1,42 @@
+.popoverNav {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  width: 100%;
+
+  transition:
+    transform 0.25s ease-out,
+    opacity 0.25s ease-out;
+}
+
+.popoverNav.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popoverNavItems {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.popoverNavItems > a:hover {
+  background-color: #2495c2;
+}
+
+.popoverNavItem {
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.popoverNavItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.popoverNavItems a {
+  text-decoration: none;
+  color: white;
+}

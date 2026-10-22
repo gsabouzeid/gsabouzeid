@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footerIcons {
+  display: flex;
+  gap: 25px;
+}
+
+.footerLinkIcon {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+  .footerIcons {
+    margin: 16px 0;
+  }
+}
