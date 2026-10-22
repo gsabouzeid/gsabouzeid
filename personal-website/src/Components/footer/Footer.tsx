@@ -1,4 +1,5 @@
 import { EnvelopeFill, Github, Linkedin } from "react-bootstrap-icons";
+import { useTranslation } from "react-i18next";
 import "./styles.css";
 
 const LINKEDIN_LINK = "https://linkedin.com/in/garrett-a-2040a9191";
@@ -6,12 +7,18 @@ const GITHUB_LINK = "https://github.com/gsabouzeid";
 const EMAIL = "gsabouzeid@gmail.com";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer>
-      <p>Created and Maintained by Garrett Abou-Zeid</p>
-      <p>&copy; 2026 Garrett Abou-Zeid. All rights reserved.</p>
+      <p>{t("footer.createdAndMaintained")}</p>
+      <p>{t("footer.copyrightNotice")}</p>
       <div className="footerIcons">
-        <a className="footerLinkIcon" href={`mailto:${EMAIL}`}>
+        <a
+          className="footerLinkIcon"
+          href={`mailto:${EMAIL}`}
+          aria-label={t("footer.emailScreenReader")}
+        >
           <EnvelopeFill />
         </a>
         <a
@@ -19,7 +26,7 @@ const Footer = () => {
           href={GITHUB_LINK}
           target="_blank"
           rel="noreferrer"
-          aria-label="GitHub"
+          aria-label={t("footer.githubScreenReader")}
         >
           <Github />
         </a>
@@ -28,7 +35,7 @@ const Footer = () => {
           href={LINKEDIN_LINK}
           target="_blank"
           rel="noreferrer"
-          aria-label="LinkedIn"
+          aria-label={t("footer.linkedinScreenReader")}
         >
           <Linkedin />
         </a>

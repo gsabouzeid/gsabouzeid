@@ -5,6 +5,7 @@ import {
   List,
   Person,
 } from "react-bootstrap-icons";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../constants";
 import "./styles.css";
@@ -14,6 +15,8 @@ interface NavProps {
 }
 
 const Nav = ({ onToggleNav }: NavProps) => {
+  const { t } = useTranslation();
+
   return (
     <nav className="nav">
       <p className="navTitle">GSA (website in progress)</p>
@@ -21,31 +24,31 @@ const Nav = ({ onToggleNav }: NavProps) => {
         <Link to={ROUTES.HOME}>
           <div className="navItem">
             <HouseDoor />
-            Home
+            {t("nav.home")}
           </div>
         </Link>
         <Link to={ROUTES.ABOUT}>
           <div className="navItem">
             <Person />
-            About
+            {t("nav.about")}
           </div>
         </Link>
         <Link to={ROUTES.PROJECTS}>
           <div className="navItem">
             <CardList />
-            Projects
+            {t("nav.projects")}
           </div>
         </Link>
         <Link to={ROUTES.SKILLS}>
           <div className="navItem">
             <Lightbulb />
-            Skills
+            {t("nav.skills")}
           </div>
         </Link>
       </div>
       <button
         className="navItemsButton"
-        aria-label="Toggle Navigation"
+        aria-label={t("nav.toggleNav")}
         onClick={onToggleNav}
       >
         <List />

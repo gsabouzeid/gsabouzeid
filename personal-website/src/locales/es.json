@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "toggleNav": "Alternar navegación"
+  },
+  "footer": {
+    "createdAndMaintained": "Creado y mantenido por Garrett Abou-Zeid",
+    "copyrightNotice": "© Garrett Abou-Zeid. Todos los derechos reservados.",
+    "emailScreenReader": "Enviarme un correo electrónico",
+    "githubScreenReader": "Visitar mi página de GitHub",
+    "linkedinScreenReader": "Visitar mi página de LinkedIn"
+  }
+}
