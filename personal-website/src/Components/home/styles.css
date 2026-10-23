@@ -1,0 +1,18 @@
+.homePageClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.header {
+  font-size: 65px;
+  margin: 0;
+}
+
+.subTitle {
+  font-size: 30px;
+  color: #2fc4ff;
+}

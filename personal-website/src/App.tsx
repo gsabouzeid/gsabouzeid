@@ -45,7 +45,7 @@ function App() {
           toggleNav={toggleNav}
           onDismissToggle={handleDismissToggle}
         />
-        <section>
+        <section className="mainSection">
           <Routes>
             <Route path={ROUTES.HOME} element={<Home />} />
             <Route path={ROUTES.ABOUT} element={<About />} />

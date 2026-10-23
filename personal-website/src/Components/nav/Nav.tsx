@@ -19,7 +19,7 @@ const Nav = ({ onToggleNav }: NavProps) => {
 
   return (
     <nav className="nav">
-      <p className="navTitle">GSA (website in progress)</p>
+      <h1 className="navTitle">GSA (website in progress)</h1>
       <div className="navItems">
         <Link to={ROUTES.HOME}>
           <div className="navItem">

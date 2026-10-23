@@ -1,10 +1,10 @@
-import "./style.css";
+import "./styles.css";
 
 const Home = () => {
   return (
     <div className="homePageClass">
-      <h1>Garrett Abou-Zeid</h1>
-      <p>Software Engineer, Problem Solver, and Lifelong Learner</p>
+      <h1 className="header">Garrett Abou-Zeid</h1>
+      <p className="subTitle">Software Engineer | Problem Solver | Lifelong Learner</p>
     </div>
   );
 };
