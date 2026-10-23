@@ -1,0 +1,36 @@
+h2 {
+  margin: 0;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.categoryContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.skillHeading {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.skillPillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skillPill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 0 20px;
+  border-radius: 20px;
+  color: #000000;
+}
