@@ -7,11 +7,11 @@ Click [here](https://github.com/user-attachments/files/34554659/Garrett_Abou-Zei
 📚 I am a graduate (2023) from the University of Minnesota Twin-Cities with a Bachelor's of Science degree in Computer Science.
 
 #### Languages I am proficient in:
- - Java
- - Python
- - C/C++
- - HTML/CSS
+ - TypeScript
  - JavaScript
+ - HTML
+ - CSS
+ - Python
 
 #### Some of my hobbies:
   🧗 Climbing
@@ -29,4 +29,4 @@ Click [here](https://github.com/user-attachments/files/34554659/Garrett_Abou-Zei
   💻 Programming
   
 
-  ### 📫 You can DM me on [LinkedIn](https://www.linkedin.com/in/garrett-a-2040a9191/)
+  ### 📫 You can DM me on [LinkedIn](https://www.linkedin.com/in/garrett-abouzeid/)
